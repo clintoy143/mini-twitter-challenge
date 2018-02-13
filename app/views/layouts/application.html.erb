@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title><%= yield(:title) %> | Review on Rails</title>
+    <title><%= full_title(yield(:title)) %></title>
     <%= favicon_link_tag 'homepage_img/favico_test.png' %>  
     <%= csrf_meta_tags %>
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
